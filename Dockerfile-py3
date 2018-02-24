@@ -52,7 +52,7 @@ COPY . /home/docker/code/
 # set current directory
 WORKDIR /home/docker/code/docker4django
 # launch migrate to generate local database
-RUN python manage.py migrate
+RUN python3 manage.py migrate
 # set current directory
 WORKDIR /home/docker/code
 
