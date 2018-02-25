@@ -1,0 +1,16 @@
+version: "3"
+
+services:
+  django111_py2:
+    image: docker4django:2-python
+    ports:
+    - "80:80"
+  django111_py3:
+    image: docker4django:3-python
+    ports:
+    - "8001:80"
+  django20_py3:
+    image: docker4django:3-python-2
+    ports:
+    - "8002:80"
+  
